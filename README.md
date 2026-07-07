@@ -1,22 +1,9 @@
-# GitHub README Files — Kayla Askins
-## Ready to copy and paste directly into each repository
-
----
-
-# README 1 — Biomedical Equipment Troubleshooting Guide
-
-Copy this into the README.md file in your `biomed-troubleshooting-guide` repository.
-
----
-
 ```markdown
 # Biomedical Equipment Troubleshooting Guide
 ### Built from Real Clinical Field Experience
 
 ## Overview
-This troubleshooting knowledge base was developed from 8+ years of hands-on field service
-experience maintaining and repairing Fresenius 2008T hemodialysis systems across multiple
-clinical sites in a CMS-regulated healthcare environment.
+Developed from hands-on clinical field service experience maintaining and repairing Fresenius 2008T hemodialysis systems across multiple clinical sites in a CMS-regulated healthcare environment.
 
 It captures recurring failure patterns, root cause analysis findings, and step-by-step
 resolution procedures drawn from over 600 real work orders. The goal is to turn tribal
