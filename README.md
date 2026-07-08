@@ -5,9 +5,7 @@
 ## Overview
 Developed from hands-on clinical field service experience maintaining and repairing Fresenius 2008T hemodialysis systems across multiple clinical sites in a CMS-regulated healthcare environment.
 
-It captures recurring failure patterns, root cause analysis findings, and step-by-step
-resolution procedures drawn from over 600 real work orders. The goal is to turn tribal
-knowledge into a structured, searchable reference that any biomedical technician can use.
+It captures recurring failure patterns, root cause analysis findings, and step-by-step resolution procedures drawn from real clinical work orders and field troubleshooting experience.
 
 ## What This Includes
 - Common error codes and what they actually mean in practice
