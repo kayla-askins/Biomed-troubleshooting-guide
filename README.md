@@ -1,4 +1,40 @@
 ```markdown
+# Compass
+
+A mobile-first field reference app for Fresenius 2008T dialysis machines,
+built on top of the troubleshooting guide below.
+
+## What's in the app
+
+- **Troubleshoot** — describe a symptom and machine number, get a matched
+  response in QUICK / DETAIL / TRAINME format, drawn from the failure
+  patterns documented in this repo.
+- **TMS Note** — fill in service details, get a formatted, copyable work
+  order note.
+- **EOD Report** — log machines serviced during a shift, generate a
+  copyable end-of-day summary.
+- **Lessons Learned** — log Machine / Symptom / Root Cause / Corrective
+  Action / Reviewed By; saved locally on the device.
+
+The troubleshooting logic is a static, rule-based matcher (no external API,
+no login, no AI branding) so it works offline and deploys as a plain
+static site.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Deploy to Netlify
+
+This repo is Netlify-ready out of the box via `netlify.toml`
+(`npm run build`, publish `dist`). Connect the repo in Netlify and deploy —
+no environment variables or backend functions are required.
+
+---
+
 # Biomedical Equipment Troubleshooting Guide
 ### Built from Real Clinical Field Experience
 
